@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            background-color: aqua;
+            margin: 10px;
+            padding: 20px;
+            height:100px;
+            width:100px;
+
+        }
+        .inlineclass{
+            display: inline-block;
+        }
+
+        .blockelement{
+            display: block;
+
+        }
+
+        .none{
+            display: none;
+        }
+
+        .flexclass{
+            display: flex;
+            /* flex-direction: row; */
+
+        }
+        .gridclass{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+    </style>
+</head>
+<body>
+    <div class="box inlineclass ">this is block element 1</div>
+    <div class="box inlineclass">this is block element 2</div>
+    <br> <hr>
+
+    <a href="" class="blockelement">home</a>
+    <a href="" class="blockelement">about</a>
+    <a href="" class="blockelement">login</a>
+    <a href="" class="blockelement">signin</a>
+
+    <!-- this is flex property -->
+    <a href="" class="none">hello</a>
+    <div class="flexclass">
+        <div class="box">this is flex 1</div>
+        <div class="box">this is flex 2</div>
+        <div class="box">this is flex 3</div>
+        <div class="box">this is flex 4</div>
+        
+        
+    </div>
+<!--  this is grid property -->
+     <!-- <div class="gridclass">
+        <div class="box">this is grid 1</div>
+        <div class="box">this is grid 2</div>
+        <div class="box">this is grid 3</div>
+        <div class="box">this is grid 4</div>
+        
+        
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /* p::first-letter{
+        color: red;
+        font-size: 20px;
+    } */
+/* selection tag is used to selecting the text or para */
+    p::selection{
+        color: blue;
+        background-color: blueviolet;
+    }
+
+    p::first-line{
+        color: red;
+
+    }
+
+    div::before{
+        content: "hello" ;
+        color: red;
+
+    }
+    div::after{
+        content: "hello";
+    }
+    span::before{
+        content: "hello";
+    }
+    span::after{
+        content: "hello";
+    }
+
+
+
+</style>
+<body>
+    <span>this is span</span>
+    <p>this is para tag</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum velit, veritatis non asperiores ducimus perspiciatis magni sint animi. Nostrum mollitia hic maiores tenetur natus optio vitae praesentium possimus corporis blanditiis beatae minus similique, repellendus minima nemo reiciendis pariatur sint dolores ipsam ex eos totam atque voluptates. Ullam similique commodi totam?
+    </p>
+    <div>this is div tag</div>
+    
+</body>
+</html>

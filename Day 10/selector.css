@@ -1,0 +1,33 @@
+/* universal selector */
+*{
+    color: red;
+    text-align: center;
+}
+
+/* element selector */
+
+h1{
+    color:blueviolet;
+}
+
+/* id selector */
+#mypara{
+    background-color: blueviolet;
+    color: brown;
+}
+
+#demoid{
+    color: chocolate;
+    font-size: 30px;
+}
+
+/* class selector */
+.myspan{
+    background-color:darkturquoise;
+    color: white;
+    font-size: 25px;
+}
+
+.myclass{
+    font-size: 25px;
+}
