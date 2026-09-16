@@ -5,33 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .image{
-            height: 150px;
-            width: 150px;
+        nav{
+            background-color:black ;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
             border: 2px solid black;
-            margin: 20px;
+            border-radius: 10px;
         }
-        .grid{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
 
+        h2{
+            color: white;
         }
-      
+        
+        
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 12px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
     </style>
    
 </head>
 <body>
-    <div class="grid">
-         <img src="image.png" alt="" class="image">
-        <img src="dora.jpg" alt="" class="image">
-        <img src="facebook.jpg" alt="" class="image">
-        <img src="momo.jpg" alt="" class="image">
-        <img src="insta.jpg" alt="" class="image">
-        <img src="juju.jpg" alt="" class="image">
-    </div>
-
+    <nav>
+        <h2>Bite<span style="color: red;">Box</span></h2>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Signin</a></li>
+        </ul>
+    </nav>
     
-        
     
+   
+      
 </body>
 </html>

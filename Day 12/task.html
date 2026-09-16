@@ -5,38 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background-color: black;
+        .image{
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            margin: 20px;
         }
-        h1{
-            color: white;
-            font-size: 40px ;
-        }
-        h1::first-letter{
-            color: deeppink;
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
 
-
-        }
-        p::first-line{
-            color:deeppink ;
-        }
-
-        p::after{
-            content: "read more !";
-            color: deeppink;
-        }
-        p::selection{
-            background-color:deeppink;
-        }
-        p{
-            color: white;
         }
       
     </style>
+   
 </head>
 <body>
-    <h1>GALAXY</h1>
-    <p>🚀Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laboriosam ipsum quae, nostrum quidem aperiam natus perferendis ab in dolor consectetur beatae laborum quaerat nisi libero, quod temporibus nesciunt consequuntur sint. Voluptates, asperiores? At assumenda nesciunt eum modi amet earum magni recusandae natus, odio dolore culpa provident molestias corporis labore quam pariatur id? Nam totam impedit provident magnam tenetur, harum mollitia, adipisci sit deleniti autem facere. Eum veritatis, reiciendis dignissimos minus et pariatur praesentium maxime placeat omnis enim nobis consequatur ab itaque vitae ullam ut repellat quia commodi temporibus animi ipsam? Nulla exercitationem omnis eos amet veniam eaque tempore modi.</p>
+    <div class="grid">
+         <img src="image.png" alt="" class="image">
+        <img src="dora.jpg" alt="" class="image">
+        <img src="facebook.jpg" alt="" class="image">
+        <img src="momo.jpg" alt="" class="image">
+        <img src="insta.jpg" alt="" class="image">
+        <img src="juju.jpg" alt="" class="image">
+    </div>
+
+    
+        
     
 </body>
 </html>

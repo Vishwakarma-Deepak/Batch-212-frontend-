@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       .container{
-        display: flex;
-        height: 100vh;
-        align-items:end;
-        justify-content: center;
-       }
+        .main-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+
+        .main-box img{
+            padding: 70px;
+            transition: 1s;
+        }
+        .main-box img:hover{
+            transform: rotate(1000000deg);
+        }
+   
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello</h1>
+    <div class="main-box">
+        <img src="c1.jpg" alt="">
+        <img src="c2.jpg" alt="">
+        <img src="c3.jpg" alt="">
+        <img src="c4.png" alt="">
     </div>
-    
     
 </body>
 </html>
